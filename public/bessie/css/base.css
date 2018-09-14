@@ -1,0 +1,44 @@
+/*公共样式*/
+
+
+/*样式重置*/
+html,body,ul,li,img,a,p,div,form,input{
+    margin:0px;
+    padding:0px;
+    /*设置盒模弄*/
+    box-sizing:border-box;
+    /*去除移动端特有的点击高亮效果*/
+    -webkit-tap-highlight-color:transparent;
+}
+
+body{
+    font-family:"微软雅黑",sans-serif;
+    font-size:13px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+input{
+    /*清除文本框获取焦点时默认的边框阴影*/
+    outline:none;
+}
+
+/*清除浮动带来的影响*/
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    *zoom:1;
+}
+

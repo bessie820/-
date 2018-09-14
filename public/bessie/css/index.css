@@ -1,0 +1,250 @@
+body {
+  background-color: #fff;
+}
+.lt_layout {
+  width: 100%;
+  /*最大宽度*/
+  max-width: 640px;
+  /*最小宽度*/
+  min-width: 320px;
+  margin: 0px auto;
+  /*头部*/
+  /*底部导航*/
+  /*内容区*/
+}
+.lt_layout .bes-header {
+  background-color: #0166ff;
+}
+.lt_layout .bes-header .bes-right {
+  float: right;
+}
+.lt_layout .bes-header h1,
+.lt_layout .bes-header a {
+  color: #fff;
+}
+.lt_layout .bes-footer {
+  background-color: #0166ff;
+}
+.lt_layout .bes-footer .mui-tab-item {
+  color: #fff;
+}
+.lt_layout .bes-footer .mui-active {
+  color: #f6ce00;
+}
+.lt_layout .bes-content {
+  background-color: #fff;
+  /*导航链接*/
+  /*品牌专区*/
+  /*运动生活专区*/
+  /*女士专区*/
+  /*男士专区*/
+}
+.lt_layout .bes-content .bes-navLinks {
+  width: 100%;
+  padding: 10px;
+}
+.lt_layout .bes-content .bes-navLinks li {
+  width: 33.33%;
+  float: left;
+}
+.lt_layout .bes-content .bes-navLinks li img {
+  width: 100%;
+  display: block;
+}
+.lt_layout .bes-content .bes-brand {
+  width: 100%;
+  padding: 0px 10px;
+}
+.lt_layout .bes-content .bes-brand .brandTitle img {
+  display: block;
+  width: 100%;
+}
+.lt_layout .bes-content .bes-brand .brandLog {
+  width: 100%;
+  padding: 12px 0px;
+}
+.lt_layout .bes-content .bes-brand .brandLog li {
+  float: left;
+  width: 25%;
+}
+.lt_layout .bes-content .bes-brand .brandLog li img {
+  width: 100%;
+  display: block;
+}
+.lt_layout .bes-content .bes-SportsLife {
+  width: 100%;
+  padding: 10px;
+}
+.lt_layout .bes-content .bes-SportsLife .SportsLifeTitle {
+  width: 100%;
+}
+.lt_layout .bes-content .bes-SportsLife .SportsLifeTitle img {
+  width: 100%;
+  display: block;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product {
+  width: 100%;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product ul {
+  padding-top: 10px;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a {
+  display: block;
+  padding: 8px;
+  box-shadow: 0 0 5px #ccc;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a img {
+  width: 100%;
+  display: block;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a > span {
+  font-size: 14px;
+  color: #8f8f94;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  line-height: 20px;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a > p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a > p > span {
+  color: red;
+  padding: 0px 3px;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a > p :nth-child(2) {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a .productBtn {
+  background-color: #0166ff;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  display: block;
+  padding: 4px 12px;
+  margin: 6px auto;
+}
+.lt_layout .bes-content .bes-women {
+  width: 100%;
+  padding: 0px 10px;
+}
+.lt_layout .bes-content .bes-women img {
+  display: block;
+  width: 100%;
+}
+.lt_layout .bes-content .bes-women .bes-product {
+  width: 100%;
+}
+.lt_layout .bes-content .bes-women .bes-product ul {
+  padding-top: 10px;
+}
+.lt_layout .bes-content .bes-women .bes-product li {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.lt_layout .bes-content .bes-women .bes-product li a {
+  display: block;
+  padding: 8px;
+  box-shadow: 0 0 5px #ccc;
+}
+.lt_layout .bes-content .bes-women .bes-product li a img {
+  width: 100%;
+  display: block;
+}
+.lt_layout .bes-content .bes-women .bes-product li a > span {
+  font-size: 14px;
+  color: #8f8f94;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  line-height: 20px;
+}
+.lt_layout .bes-content .bes-women .bes-product li a > p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+.lt_layout .bes-content .bes-women .bes-product li a > p > span {
+  color: red;
+  padding: 0px 3px;
+}
+.lt_layout .bes-content .bes-women .bes-product li a > p :nth-child(2) {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.lt_layout .bes-content .bes-women .bes-product li a .productBtn {
+  background-color: #0166ff;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  display: block;
+  padding: 4px 12px;
+  margin: 6px auto;
+}
+.lt_layout .bes-content .bes-men {
+  width: 100%;
+  padding: 0px 10px;
+}
+.lt_layout .bes-content .bes-men img {
+  display: block;
+  width: 100%;
+}
+.lt_layout .bes-content .bes-men .bes-product {
+  width: 100%;
+}
+.lt_layout .bes-content .bes-men .bes-product ul {
+  padding-top: 10px;
+}
+.lt_layout .bes-content .bes-men .bes-product li {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.lt_layout .bes-content .bes-men .bes-product li a {
+  display: block;
+  padding: 8px;
+  box-shadow: 0 0 5px #ccc;
+}
+.lt_layout .bes-content .bes-men .bes-product li a img {
+  width: 100%;
+  display: block;
+}
+.lt_layout .bes-content .bes-men .bes-product li a > span {
+  font-size: 14px;
+  color: #8f8f94;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  line-height: 20px;
+}
+.lt_layout .bes-content .bes-men .bes-product li a > p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+.lt_layout .bes-content .bes-men .bes-product li a > p > span {
+  color: red;
+  padding: 0px 3px;
+}
+.lt_layout .bes-content .bes-men .bes-product li a > p :nth-child(2) {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.lt_layout .bes-content .bes-men .bes-product li a .productBtn {
+  background-color: #0166ff;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  display: block;
+  padding: 4px 12px;
+  margin: 6px auto;
+}
