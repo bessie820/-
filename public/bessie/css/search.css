@@ -1,0 +1,59 @@
+.lt_layout .bes-content .my-content {
+  width: 100%;
+  padding: 10px;
+  /* ����*/
+  /* ������ʷ*/
+  /*��ʷ�б�*/
+}
+.lt_layout .bes-content .my-content .bes-search {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #0166ff;
+  position: relative;
+}
+.lt_layout .bes-content .my-content .bes-search input {
+  border: none;
+}
+.lt_layout .bes-content .my-content .bes-search :nth-child(1) {
+  width: 100%;
+  height: 28px;
+  float: left;
+  font-size: 14px;
+  margin: 0px;
+  background: none;
+  padding: 10px;
+}
+.lt_layout .bes-content .my-content .bes-search #searcBtn {
+  float: right;
+  width: 60px;
+  height: 28px;
+  background-color: #0166ff;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 0;
+}
+.lt_layout .bes-content .my-content .historyTop {
+  width: 100%;
+  margin-top: 15px;
+  color: #8f8f94;
+}
+.lt_layout .bes-content .my-content .historyTop .searchHistory {
+  float: left;
+}
+.lt_layout .bes-content .my-content .historyTop .clearHistory {
+  float: right;
+  font-size: 14px;
+  line-height: normal;
+}
+.lt_layout .bes-content .my-content .historyTop .mui-icon-trash:before {
+  margin-right: 3px;
+}
+.lt_layout .bes-content .my-content .mui-table-view {
+  margin-top: 15px;
+}
+.lt_layout .bes-content .my-content .mui-table-view .mui-table-view-cell {
+  padding: 11px 0px;
+}

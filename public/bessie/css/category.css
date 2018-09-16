@@ -1,0 +1,56 @@
+.lt_layout .bes-content {
+  background-color: #f5f5f5;
+  position: absolute;
+  width: 100%;
+  top: 44px;
+  bottom: 50px;
+}
+.lt_layout .bes-content .categoryLeft {
+  width: 80px;
+  height: 100%;
+  background-color: #fff;
+  float: left;
+  position: relative;
+}
+.lt_layout .bes-content .categoryLeft a {
+  display: block;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+}
+.lt_layout .bes-content .categoryLeft a.active {
+  color: #0166ff;
+}
+.lt_layout .bes-content .categoryRight {
+  height: 100%;
+  margin-left: 90px;
+  position: relative;
+}
+.lt_layout .bes-content .categoryRight .rightLogo {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+}
+.lt_layout .bes-content .categoryRight .rightLogo a {
+  display: block;
+  width: 33.33%;
+  float: left;
+  margin-top: 10px;
+}
+.lt_layout .bes-content .categoryRight .rightLogo a img {
+  width: 100%;
+  display: block;
+}
+.lt_layout .bes-content .categoryRight .rightLogo a span {
+  display: block;
+  text-align: center;
+  color: #8f8f94;
+  font-size: 12px;
+}

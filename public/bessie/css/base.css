@@ -14,6 +14,7 @@ html,body,ul,li,img,a,p,div,form,input{
 body{
     font-family:"微软雅黑",sans-serif;
     font-size:13px;
+    background-color: #fff;
 }
 
 a:hover{
@@ -28,6 +29,39 @@ input{
     /*清除文本框获取焦点时默认的边框阴影*/
     outline:none;
 }
+
+/*公共头部+底部+内容背景区*/
+.lt_layout {
+    width: 100%;
+    /*最大宽度*/
+    max-width: 640px;
+    /*最小宽度*/
+    min-width: 320px;
+    margin: 0px auto;
+}
+.lt_layout .bes-header {
+    background-color: #0166ff;
+}
+.lt_layout .bes-header .bes-right {
+    float: right;
+}
+.lt_layout .bes-header h1,
+.lt_layout .bes-header a {
+    color: #fff;
+}
+.lt_layout .bes-footer {
+    background-color: #0166ff;
+}
+.lt_layout .bes-footer .mui-tab-item {
+    color: #fff;
+}
+.lt_layout .bes-footer .mui-active {
+    color: #f6ce00;
+}
+.lt_layout .bes-content{
+    background-color: #fff;
+}
+
 
 /*清除浮动带来的影响*/
 .clearfix:before,

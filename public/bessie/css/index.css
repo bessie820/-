@@ -1,38 +1,7 @@
-body {
-  background-color: #fff;
-}
 .lt_layout {
-  width: 100%;
-  /*最大宽度*/
-  max-width: 640px;
-  /*最小宽度*/
-  min-width: 320px;
-  margin: 0px auto;
-  /*头部*/
-  /*底部导航*/
   /*内容区*/
 }
-.lt_layout .bes-header {
-  background-color: #0166ff;
-}
-.lt_layout .bes-header .bes-right {
-  float: right;
-}
-.lt_layout .bes-header h1,
-.lt_layout .bes-header a {
-  color: #fff;
-}
-.lt_layout .bes-footer {
-  background-color: #0166ff;
-}
-.lt_layout .bes-footer .mui-tab-item {
-  color: #fff;
-}
-.lt_layout .bes-footer .mui-active {
-  color: #f6ce00;
-}
 .lt_layout .bes-content {
-  background-color: #fff;
   /*导航链接*/
   /*品牌专区*/
   /*运动生活专区*/

@@ -1,0 +1,72 @@
+.lt_layout {
+  /*������*/
+}
+.lt_layout .bes-content {
+  /*�˶�����ר��*/
+}
+.lt_layout .bes-content .mui-row {
+  width: 100%;
+  padding: 10px 13px 0px 13px;
+}
+.lt_layout .bes-content .mui-row .mui-col-xs-6 {
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  background-color: #efeff4;
+  text-align: center;
+}
+.lt_layout .bes-content .mui-row .mui-col-xs-6 .mui-icon {
+  font-size: 14px;
+  margin-left: 1px;
+}
+.lt_layout .bes-content .bes-SportsLife {
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product {
+  width: 100%;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a {
+  display: block;
+  padding: 8px;
+  box-shadow: 0 0 5px #ccc;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a img {
+  width: 100%;
+  display: block;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a > span {
+  font-size: 14px;
+  color: #8f8f94;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  line-height: 20px;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a > p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a > p > span {
+  color: red;
+  padding: 0px 3px;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a > p :nth-child(2) {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.lt_layout .bes-content .bes-SportsLife .bes-product li a .productBtn {
+  background-color: #0166ff;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  display: block;
+  padding: 4px 12px;
+  margin: 6px auto;
+}
